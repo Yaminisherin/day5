@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>My Resume</h1>
+    <form>
+        <fieldset>
+            <legend><strong>Personal Info</strong></legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your  Name" required>
+            </p>
+            <p>
+                <label for="fathername">Father Name</label>
+                <input type="text" name="fathername" id="fathername" placeholder="Enter your Father Name" required>
+            </p>
+            <p>
+                <label for="martial status">Martial Status</label>
+                <input type="radio" name="martial status" id="married" value="married">
+                <label for="married">Married</label>
+                <input type="radio" name="martial status" id="unmarried" value="unmarried">
+                <label for="unmarried">Unmarried</label>
+            </p>
+            <p>
+             <label for="date">DOB</label>
+             <input type="date" name="date" id="date" placeholder="Enter your DOB" required>
+            </p>
+            <p> </p>
+        </fieldset>
+        <button type ="reset">Reset</button>
+    </form>
+</body>
+</html>
